@@ -1,38 +1,318 @@
-.App {
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+
+}
+
+
+
+/* --------------------------------- */
+
+/* =====2 version  */
+ 
+.navbar ,
+ .nav-links {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content:space-around;
+}
+
+.nav-links {
+  display: flex;
+  /* align-items: center;
+    justify-content: space-around; */
+ 
+} 
+ 
+.nav-links.open {
+display: flex;
+  /* align-items: center;
+  justify-content:space-around; */
+
+} 
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 1200px){
+  .nav-links.open {
+      display: none;
+    }
+  
+    .hamburger {
+      display: flex;
+      cursor: pointer;
+    }
+}
+
+@media (max-width: 768px) {
+  .nav-links.open {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+} 
+
+
+/* ------------------- */
+
+
+.footer {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-list {
+  min-height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 1200px) {
+  .book-list {
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+@media (max-width: 768px) {
+  .book-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* about css */
+.about-container {
+  min-height: 80vh;
+  padding: 50px;
+  text-align: center;
+}
+
+.about-title {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.about-text {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+@media (max-width: 768px) {
+  .about-title {
+    font-size: 30px;
+  }
+
+  .about-text {
+    font-size: 16px;
+  }
+}
+
+
+.favorites {
+  min-height: 80vh;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  padding: 10px;
+}
+@media (max-width: 1200px) {
+  .favorites {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .favorites {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* bookDetails */
+
+.book-details {
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  text-align: center;
+}
+
+.book-description {
+  margin: 0px 40px;
+}
+
+.book-image-details {
+  margin: 0px 40px;
+}
+
+/* message when you dont have any favorites books */
+.message {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
+}
+@media (max-width:768px) {
+  .message {
+    transform: translate(-50%, -50%) scale(0.8);
+  }
+}
+
+@media (max-width:768px) {
+  .book-details {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .book-description,
+  .book-image-details {
+    margin: 40px 0;
+  }
+}
+
+/* book image */
+img {
+  width: 300px;
+  height: 350px;
+  transition: all 0.3s ease;
+}
+
+img:hover {
+  transform: scale(0.9);
+}
+
+/* book cards */
+.book {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin: 20px 0;
 }
 
-.App-link {
-  color: #61dafb;
+button {
+  padding: 10px;
+  background-color: black;
+  color: antiquewhite;
+  width: 300px;
+  font-size: 20px;
+  border-radius: 5px;
+}
+@media (max-width:768px) {
+  button {
+    width: 250px;
+    font-size: 18px;
+  }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+
+/* i dont know what a version this 
+
+/* =====1 version  */
+
+/* .navbar {
+    width: 100%;
+    height: 10vh;
+    background-color: black;
+    color: antiquewhite;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
+.hamburger {
+  display: none;
+}
+
+.nav-links {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+
+} 
+ */
+
+
+
+
+/* navbar drop down link */
+
+/* .navbar {
+  width: 100%;
+  height: 10vh;
+  background-color: black;
+  color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+ 
+.nav-links {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: black;
+  color: antiquewhite;
+  width: 100%;
+  transform: translateY(-100%);
+  transition: all 0.3s ease-out;
+} 
+
+.nav-links.open {
+  transform: translateY(0);
+}
+
+.hamburger {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+  }
+
+  .hamburger {
+    display: flex;
+    cursor: pointer;
+  }
+} */
