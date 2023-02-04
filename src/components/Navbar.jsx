@@ -14,17 +14,17 @@ const Navbar = () => {
         <div className='navbar'>
             <div>
                 <Link to="/">
-                <h1 onClick={() => navigate(`/books/${BookList}`)}>BookHub</h1>
+                <h1 onClick={() => navigate(`/books/${BookList}`)}>Book <span style={{color:"antiquewhite"}}>Hub</span></h1>
                 </Link>
             </div>
             <div>
                 <Link to="/about">
-                <h3 className='abt'>About</h3>
+                <h3>About</h3>
                 </Link>
             </div>
             <div>
                 <Link to="/favorites">
-                <h3 className='fvr'>Your Favorites</h3>
+                <h3>Your Favorites</h3>
                 </Link>
             </div>
         </div>
