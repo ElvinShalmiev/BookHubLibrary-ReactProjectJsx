@@ -1,4 +1,54 @@
-# Getting Started with Create React App
+BookHub App Library
+
+
+BookHub library is a simple and user-friendly web application platform,allows users to find and save their favorite books and view information about them. With a vast collection of books, users can find any book they want and save it for later.
+
+
+
+Features:
+
+Search books by scrolling
+View book details and information
+Add books to your favorite list
+View and manage your favorite list
+Navigate to an "About" page to learn more about the app
+
+
+
+Tech Stack:
+
+ReactJS
+FakeAPI
+Simple and friendly CSS design
+
+
+Installation:
+To run this project follow these steps..
+
+1. Install dependencies:
+###  'npm install'
+
+2. Run the development server:
+###  'npm start'
+
+
+
+Usage:
+http://localhost:3000/
+Search for books by scrolling up and down
+View book details and information
+Add books to your favorite list by clicking the "Add to favorites" button
+Delete books from your favorite list by clicking the "Delete from favorites" button
+View and manage your favorite list by navigating to the "Favorites" page
+Learn more about the app by navigating to the "About" page
+
+* This application was developed as a part of a React project that I worked on during my studies at HackerU College 
+
+
+
+
+
+<!-- # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -68,3 +118,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ -->

@@ -21,7 +21,7 @@ const Favorites = () => {
     <div className='favorites'>
       {favorites.length > 0 ? favorites.map((book) => (
         <div key={book.id} className='book'>
-          <div><h3>{book.title}</h3></div>
+          <div><h2>{book.title}</h2></div>
           <div><img src={book.image_url} alt="#" onClick={() => navigate(`/books/${book.id}`)} /></div>
 
           <div>{favoritesChecker(book.id) ?
