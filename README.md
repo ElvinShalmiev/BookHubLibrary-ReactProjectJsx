@@ -7,18 +7,24 @@ BookHub library is a simple and user-friendly web application platform, allows u
 
 ## Features:
 
-Search books by scrolling
-View book details and information
-Add books to your favorite list
-View and manage your favorite list
-Navigate to an "About" page to learn more about the app
+Search books by scrolling,
+
+View book details and information,
+
+Add books to your favorite list,
+
+View and manage your favorite list,
+
+Navigate to an "About" page to learn more about the app,
 
 
 
 ## Tech Stack:
 
-ReactJS
-FakeAPI
+ReactJS,
+
+FakeAPI,
+
 Simple and friendly CSS design
 
 
@@ -35,11 +41,16 @@ To run this project follow these steps...
 
 ## Usage:
 http://localhost:3000/
-Search for books by scrolling up and down
-View book details and information
-Add books to your favorite list by clicking the "Add to favorites" button
-Delete books from your favorite list by clicking the "Delete from favorites" button
-View and manage your favorite list by navigating to the "Favorites" page
+Search for books by scrolling up and down,
+
+View book details and information,
+
+Add books to your favorite list by clicking the "Add to favorites" button,
+
+Delete books from your favorite list by clicking the "Delete from favorites" button,
+
+View and manage your favorite list by navigating to the "Favorites" page,
+
 Learn more about the app by navigating to the "About" page
 
 * This application was developed as a part of a React project that I worked on during my studies at HackerU College 
