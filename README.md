@@ -1,11 +1,11 @@
-BookHub App Library
+# BookHub App Library
 
 
-BookHub library is a simple and user-friendly web application platform,allows users to find and save their favorite books and view information about them. With a vast collection of books, users can find any book they want and save it for later.
+BookHub library is a simple and user-friendly web application platform, allows users to find and save their favorite books and view information about them. With a vast collection of books, users can find any book they want and save it for later.
 
 
 
-Features:
+## Features:
 
 Search books by scrolling
 View book details and information
@@ -15,25 +15,25 @@ Navigate to an "About" page to learn more about the app
 
 
 
-Tech Stack:
+## Tech Stack:
 
 ReactJS
 FakeAPI
 Simple and friendly CSS design
 
 
-Installation:
-To run this project follow these steps..
+### Installation:
+To run this project follow these steps...
 
 1. Install dependencies:
-###  'npm install'
+```npm install```
 
 2. Run the development server:
-###  'npm start'
+```npm start```
 
 
 
-Usage:
+## Usage:
 http://localhost:3000/
 Search for books by scrolling up and down
 View book details and information
