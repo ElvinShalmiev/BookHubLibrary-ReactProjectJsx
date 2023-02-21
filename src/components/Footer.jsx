@@ -4,7 +4,7 @@ import '../App';
 const Footer = () => {
   return (
     <div className='footer'>
-        <p>Made BY @elvinShalmiev 2023&copy;</p>
+        <h3>Made BY @elvinShalmiev 2023&copy;</h3>
         </div>
   )
 }

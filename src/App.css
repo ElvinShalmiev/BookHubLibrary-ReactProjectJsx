@@ -145,6 +145,10 @@ h2{
   
 }
 
+p{
+  font-family:'Times New Roman', Times, serif;
+}
+
 .book-description {
   margin: 0px 40px;
 }
